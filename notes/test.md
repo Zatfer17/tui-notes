@@ -1,14 +1,3 @@
-# Prova
+Here's a summary:
 
-123
-
-prova prova
-
-aaaa
-
-
-basic a aa a
-
-
-
-# Hello this is a title
+Filippo "Pippo" Inzaghi is an Italian football manager and former player. He played as a striker for top clubs like Juventus and AC Milan, winning multiple titles including two UEFA Champions League trophies and three Serie A championships. He's considered one of the greatest strikers of his generation, with 313 goals in official matches, and holds several records, including most hat-tricks in Serie A and Milan's all-time leading international goal scorer with 43 goals.

@@ -18,3 +18,12 @@ NoteWidget {
 NoteWidget:focus-within {
     border: heavy $accent;
 }
+
+AssistantWidget {
+    height: 15vh;
+    border: heavy $primary;
+}
+
+AssistantWidget:focus-within {
+    border: heavy $accent;
+}
