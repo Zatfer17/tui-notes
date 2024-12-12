@@ -1,7 +1,7 @@
 from textual.app import ComposeResult
 from textual.containers import VerticalScroll
 from textual.widgets import DirectoryTree, TextArea
-from widgets.note import NoteWidget
+from tui_notes.widgets.note import NoteWidget
 
 
 class FilesWidget(VerticalScroll):
@@ -9,7 +9,7 @@ class FilesWidget(VerticalScroll):
     BORDER_TITLE = 'Files'
 
     def compose(self) -> ComposeResult:
-        yield DirectoryTree('./notes/')
+        yield DirectoryTree('./docs/')
 
     def on_directory_tree_file_selected(self, message: DirectoryTree.FileSelected):
         if str(message.path).endswith('.md'):

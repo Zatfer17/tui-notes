@@ -1,9 +1,9 @@
 from textual.app import App, ComposeResult
 from textual.containers import HorizontalScroll
 from textual.widgets import Footer, TextArea
-from widgets.files import FilesWidget
-from widgets.note import NoteWidget
-from widgets.assistant import AssistantWidget
+from tui_notes.widgets.files import FilesWidget
+from tui_notes.widgets.note import NoteWidget
+from tui_notes.widgets.assistant import AssistantWidget
 
 
 class NotesApp(App):
