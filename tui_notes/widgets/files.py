@@ -9,7 +9,7 @@ class FilesWidget(VerticalScroll):
     BORDER_TITLE = 'Files'
 
     def compose(self) -> ComposeResult:
-        yield DirectoryTree('./docs/')
+        yield DirectoryTree('~/Desktop/')
 
     def on_directory_tree_file_selected(self, message: DirectoryTree.FileSelected):
         if str(message.path).endswith('.md'):
