@@ -19,7 +19,7 @@ class NotesApp(App):
         with HorizontalScroll(id='main_view'):
             yield FilesWidget(can_focus=False)
             yield NoteWidget(can_focus=False)
-        #yield AssistantWidget()
+        yield AssistantWidget()
         yield Footer()
 
     def action_save_note(self) -> None:
