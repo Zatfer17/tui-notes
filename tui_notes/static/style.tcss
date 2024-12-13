@@ -1,0 +1,29 @@
+FilesWidget {
+    width: 15vw;
+    border: heavy $primary;
+}
+
+FilesWidget:focus-within {
+    border: heavy $accent;
+}
+
+DirectoryTree {
+    padding: 1;
+}
+
+NoteWidget {
+    border: heavy $primary;
+}
+
+NoteWidget:focus-within {
+    border: heavy $accent;
+}
+
+AssistantWidget {
+    height: 15vh;
+    border: heavy $primary;
+}
+
+AssistantWidget:focus-within {
+    border: heavy $accent;
+}
