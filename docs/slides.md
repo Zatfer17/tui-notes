@@ -2,7 +2,8 @@
 marp: true
 ---
 
-# TUIs in Python
+# Building TUIs in Python
+Lunar Python guild session
 
 ---
 
